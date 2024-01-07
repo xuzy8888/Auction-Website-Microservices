@@ -1,0 +1,74 @@
+body {
+  background-color: whitesmoke;
+}
+
+div {
+  font-family: "Raleway", sans-serif;
+}
+
+div.card {
+  background-color: white;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 25vw;
+  object-fit: cover;
+}
+
+.custom-bg-color {
+  background-color: #800000;
+}
+
+.logo-img {
+  border-radius: 5px;
+}
+
+.auction-text {
+    font-size: 40px;
+    font-family: 'Teko', sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+
+.logo-img {
+    height: 100%;
+}
+
+.auction-text {
+    margin-left: 10px;
+}
+
+.main-icon {
+    color: antiquewhite;
+}
+
+.main-button {
+    background-color: #800000;
+    border-color: #ffffff;
+    color: white;
+}
+
+.image-container {
+    position: relative;
+}
+
+.favorite-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.favorite-button.active {
+    background-color: pink;
+}
+
